@@ -14,8 +14,8 @@ function App() {
         <img src={record} className="App-logo" alt="logo" />  
         {options.map((option) => {
           return(
-            <div onClick={()=>{
-              console.log(option)
+            <div key={option} onClick={()=>{
+              console.log(`are you ready to ${option}?`)
             }}>
               {option}
             </div>
