@@ -17,7 +17,9 @@ function App() {
 
         {options.map((option) => {
           return(
-            <div>
+            <div onClick={()=>{
+              console.log(option)
+            }}>
               {option}
             </div>
           )
