@@ -37,8 +37,9 @@
 }
 
 .turntable{
-  background-color:saddlebrown;
+  background-color:rgb(56, 24, 2);
   border-radius: 10%;
+  border: 2px solid black;
 }
 
 .options{
