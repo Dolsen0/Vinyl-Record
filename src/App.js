@@ -11,10 +11,12 @@ function App() {
       <header className="App-header">
         <h2>Vinyl Record</h2>
         <h5>Record your vinyl</h5>
+        <div className='turntable'>
         <img src={record} className="App-logo" alt="logo" />  
+        </div>
         {options.map((option) => {
           return(
-            <div key={option} onClick={()=>{
+            <div className='options' key={option} onClick={()=>{
               console.log(`are you ready to ${option}?`)
             }}>
               {option}
