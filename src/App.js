@@ -14,26 +14,29 @@ function App() {
           <div className="turntable">
             <img src={record} className="App-logo" alt="logo" />
           </div>
+
+          <div className="options-container">
           {options.map((option) => {
             return (
+              
               <div
-                className="options"
-                key={option}
-                onClick={() => {
-                  console.log(`are you ready to ${option}?`);
-                }}
+              className="options"
+              key={option}
+              onClick={() => {
+                console.log(`are you ready to ${option}?`);
+              }}
               >
-                <ul>
-                  <li>
+
                 {option}
-                  </li>
-                </ul>
+
               </div>
             );
           })}
-        </div>
+          </div>
+          </div>
       </header>
     </div>
+
   );
 }
 

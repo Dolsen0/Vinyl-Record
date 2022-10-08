@@ -39,12 +39,25 @@
 .container{
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-around;
+  margin: 5px;
+  padding: 10px;
+  
 }
+
 
 .turntable{
   background-color:rgb(56, 24, 2);
   border-radius: 10%;
   border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.options-container{
+  display: flex;
+  flex-direction: column;
+  align-self:center;
 }
 
 .options{
