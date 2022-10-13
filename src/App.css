@@ -38,7 +38,7 @@
 
 .container{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   justify-content: space-around;
   margin: 5px;
   padding: 10px;
@@ -56,8 +56,9 @@
 
 .options-container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-self:center;
+  padding: auto;
 }
 
 .options{
